@@ -1,0 +1,5 @@
+1、创建数据表时，每个应用中的urls.py 中需要加入 urlpatterns = [],否则执行 py manage.py makemigrations 会报错
+2、自定义用户表：MyUser
+   模型类需要继承AbstractUser(django.contrib.auth.models)
+   settings.py中添加配置：AUTH_USER_MODEL='user.MyUser'
+ 3、a标签打开一个相同页面？

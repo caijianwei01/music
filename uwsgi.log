@@ -1,0 +1,1879 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 22:32:03 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8090 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xbef710
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 688464 bytes (672 KB) for 25 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xbef710 pid: 1588 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1588)
+spawned uWSGI worker 1 (pid: 1590, cores: 5)
+spawned uWSGI worker 2 (pid: 1591, cores: 5)
+spawned uWSGI worker 3 (pid: 1592, cores: 5)
+spawned uWSGI worker 4 (pid: 1593, cores: 5)
+spawned uWSGI worker 5 (pid: 1594, cores: 5)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 1590)...
+Gracefully killing worker 2 (pid: 1591)...
+Gracefully killing worker 4 (pid: 1593)...
+Gracefully killing worker 5 (pid: 1594)...
+Gracefully killing worker 3 (pid: 1592)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /usr/local/music
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (:8090)
+running /usr/local/python3-1/bin/uwsgi
+[uWSGI] getting INI configuration from music_uwsgi.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 22:33:54 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address :8090 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x1b80670
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 688464 bytes (672 KB) for 25 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1b80670 pid: 1588 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1588)
+spawned uWSGI worker 1 (pid: 1764, cores: 5)
+spawned uWSGI worker 2 (pid: 1765, cores: 5)
+spawned uWSGI worker 3 (pid: 1766, cores: 5)
+spawned uWSGI worker 4 (pid: 1767, cores: 5)
+spawned uWSGI worker 5 (pid: 1768, cores: 5)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 23:03:10 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8090 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x2657710
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 688464 bytes (672 KB) for 25 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2657710 pid: 1191 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1191)
+spawned uWSGI worker 1 (pid: 1193, cores: 5)
+spawned uWSGI worker 2 (pid: 1194, cores: 5)
+spawned uWSGI worker 3 (pid: 1195, cores: 5)
+spawned uWSGI worker 4 (pid: 1196, cores: 5)
+spawned uWSGI worker 5 (pid: 1197, cores: 5)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 11 23:04:37 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8090).
+bind(): Address already in use [core/socket.c line 769]
+Sun Nov 11 23:19:47 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Nov 11 23:19:47 2018 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 16 10:03:53 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x2252690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2252690 pid: 5460 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5460)
+spawned uWSGI worker 1 (pid: 5462, cores: 1)
+spawned uWSGI worker 2 (pid: 5463, cores: 1)
+spawned uWSGI worker 3 (pid: 5464, cores: 1)
+spawned uWSGI worker 4 (pid: 5465, cores: 1)
+spawned uWSGI worker 5 (pid: 5466, cores: 1)
+spawned uWSGI worker 6 (pid: 5467, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 16 10:09:56 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x1f7e690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1f7e690 pid: 5479 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5479)
+spawned uWSGI worker 1 (pid: 5481, cores: 1)
+spawned uWSGI worker 2 (pid: 5482, cores: 1)
+spawned uWSGI worker 3 (pid: 5483, cores: 1)
+spawned uWSGI worker 4 (pid: 5484, cores: 1)
+spawned uWSGI worker 5 (pid: 5485, cores: 1)
+spawned uWSGI worker 6 (pid: 5486, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 16 10:12:08 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x1221690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1221690 pid: 5491 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5491)
+spawned uWSGI worker 1 (pid: 5493, cores: 1)
+spawned uWSGI worker 2 (pid: 5494, cores: 1)
+spawned uWSGI worker 3 (pid: 5495, cores: 1)
+spawned uWSGI worker 4 (pid: 5496, cores: 1)
+spawned uWSGI worker 5 (pid: 5497, cores: 1)
+spawned uWSGI worker 6 (pid: 5498, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 16 10:13:56 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x23ed690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x23ed690 pid: 5507 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5507)
+spawned uWSGI worker 1 (pid: 5509, cores: 1)
+spawned uWSGI worker 2 (pid: 5510, cores: 1)
+spawned uWSGI worker 3 (pid: 5511, cores: 1)
+spawned uWSGI worker 4 (pid: 5512, cores: 1)
+spawned uWSGI worker 5 (pid: 5513, cores: 1)
+spawned uWSGI worker 6 (pid: 5514, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 16 10:20:59 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music/ranking/templates/ranking
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xff06f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xff06f0 pid: 5536 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5536)
+spawned uWSGI worker 1 (pid: 5538, cores: 1)
+spawned uWSGI worker 2 (pid: 5539, cores: 1)
+spawned uWSGI worker 3 (pid: 5540, cores: 1)
+spawned uWSGI worker 4 (pid: 5541, cores: 1)
+spawned uWSGI worker 5 (pid: 5542, cores: 1)
+spawned uWSGI worker 6 (pid: 5543, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 16 13:57:45 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music/ranking/templates/ranking
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 16 14:13:38 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x22316b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x22316b0 pid: 5780 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5780)
+spawned uWSGI worker 1 (pid: 5782, cores: 1)
+spawned uWSGI worker 2 (pid: 5783, cores: 1)
+spawned uWSGI worker 3 (pid: 5784, cores: 1)
+spawned uWSGI worker 4 (pid: 5785, cores: 1)
+spawned uWSGI worker 5 (pid: 5786, cores: 1)
+spawned uWSGI worker 6 (pid: 5787, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Nov 16 17:06:28 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x15aa690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15aa690 pid: 5937 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5937)
+spawned uWSGI worker 1 (pid: 5939, cores: 1)
+spawned uWSGI worker 2 (pid: 5940, cores: 1)
+spawned uWSGI worker 3 (pid: 5941, cores: 1)
+spawned uWSGI worker 4 (pid: 5942, cores: 1)
+spawned uWSGI worker 5 (pid: 5943, cores: 1)
+spawned uWSGI worker 6 (pid: 5944, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 19:26:11 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x2a29690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2a29690 pid: 7077 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7077)
+spawned uWSGI worker 1 (pid: 7079, cores: 1)
+spawned uWSGI worker 2 (pid: 7080, cores: 1)
+spawned uWSGI worker 3 (pid: 7081, cores: 1)
+spawned uWSGI worker 4 (pid: 7082, cores: 1)
+spawned uWSGI worker 5 (pid: 7083, cores: 1)
+spawned uWSGI worker 6 (pid: 7084, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 19:58:42 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x23026b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x23026b0 pid: 7121 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7121)
+spawned uWSGI worker 1 (pid: 7123, cores: 1)
+spawned uWSGI worker 2 (pid: 7124, cores: 1)
+spawned uWSGI worker 3 (pid: 7125, cores: 1)
+spawned uWSGI worker 4 (pid: 7126, cores: 1)
+spawned uWSGI worker 5 (pid: 7127, cores: 1)
+spawned uWSGI worker 6 (pid: 7128, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 21:11:36 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x297d6a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x297d6a0 pid: 7178 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7178)
+spawned uWSGI worker 1 (pid: 7180, cores: 1)
+spawned uWSGI worker 2 (pid: 7181, cores: 1)
+spawned uWSGI worker 3 (pid: 7182, cores: 1)
+spawned uWSGI worker 4 (pid: 7183, cores: 1)
+spawned uWSGI worker 5 (pid: 7184, cores: 1)
+spawned uWSGI worker 6 (pid: 7185, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 21:22:56 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x10f2690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x10f2690 pid: 7213 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7213)
+spawned uWSGI worker 1 (pid: 7215, cores: 1)
+spawned uWSGI worker 2 (pid: 7216, cores: 1)
+spawned uWSGI worker 3 (pid: 7217, cores: 1)
+spawned uWSGI worker 4 (pid: 7218, cores: 1)
+spawned uWSGI worker 5 (pid: 7219, cores: 1)
+spawned uWSGI worker 6 (pid: 7220, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 21:25:09 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x1fda690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fda690 pid: 7230 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7230)
+spawned uWSGI worker 1 (pid: 7232, cores: 1)
+spawned uWSGI worker 2 (pid: 7233, cores: 1)
+spawned uWSGI worker 3 (pid: 7234, cores: 1)
+spawned uWSGI worker 4 (pid: 7235, cores: 1)
+spawned uWSGI worker 5 (pid: 7236, cores: 1)
+spawned uWSGI worker 6 (pid: 7237, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 21:53:58 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x11186a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x11186a0 pid: 7251 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7251)
+spawned uWSGI worker 1 (pid: 7253, cores: 1)
+spawned uWSGI worker 2 (pid: 7254, cores: 1)
+spawned uWSGI worker 3 (pid: 7255, cores: 1)
+spawned uWSGI worker 4 (pid: 7256, cores: 1)
+spawned uWSGI worker 5 (pid: 7257, cores: 1)
+spawned uWSGI worker 6 (pid: 7258, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 21:57:08 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x14cc6a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x14cc6a0 pid: 7270 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7270)
+spawned uWSGI worker 1 (pid: 7272, cores: 1)
+spawned uWSGI worker 2 (pid: 7273, cores: 1)
+spawned uWSGI worker 3 (pid: 7274, cores: 1)
+spawned uWSGI worker 4 (pid: 7275, cores: 1)
+spawned uWSGI worker 5 (pid: 7276, cores: 1)
+spawned uWSGI worker 6 (pid: 7277, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 23:06:47 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xef4690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 510440 bytes (498 KB) for 6 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xef4690 pid: 7369 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7369)
+spawned uWSGI worker 1 (pid: 7371, cores: 1)
+spawned uWSGI worker 2 (pid: 7372, cores: 1)
+spawned uWSGI worker 3 (pid: 7373, cores: 1)
+spawned uWSGI worker 4 (pid: 7374, cores: 1)
+spawned uWSGI worker 5 (pid: 7375, cores: 1)
+spawned uWSGI worker 6 (pid: 7376, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Nov 18 23:47:11 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xf9f690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xf9f690 pid: 7407 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7407)
+spawned uWSGI worker 1 (pid: 7409, cores: 1)
+spawned uWSGI worker 2 (pid: 7410, cores: 1)
+spawned uWSGI worker 3 (pid: 7411, cores: 1)
+spawned uWSGI worker 4 (pid: 7412, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 02:41:44 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x26856a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x26856a0 pid: 7579 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7579)
+spawned uWSGI worker 1 (pid: 7581, cores: 1)
+spawned uWSGI worker 2 (pid: 7582, cores: 1)
+spawned uWSGI worker 3 (pid: 7583, cores: 1)
+spawned uWSGI worker 4 (pid: 7584, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 02:57:00 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xe21690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xe21690 pid: 1226 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1226)
+spawned uWSGI worker 1 (pid: 1228, cores: 1)
+spawned uWSGI worker 2 (pid: 1229, cores: 1)
+spawned uWSGI worker 3 (pid: 1230, cores: 1)
+spawned uWSGI worker 4 (pid: 1231, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 03:07:33 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xdd96a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xdd96a0 pid: 1258 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1258)
+spawned uWSGI worker 1 (pid: 1260, cores: 1)
+spawned uWSGI worker 2 (pid: 1261, cores: 1)
+spawned uWSGI worker 3 (pid: 1262, cores: 1)
+spawned uWSGI worker 4 (pid: 1263, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 11:04:33 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xf896b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xf896b0 pid: 1545 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1545)
+spawned uWSGI worker 1 (pid: 1547, cores: 1)
+spawned uWSGI worker 2 (pid: 1548, cores: 1)
+spawned uWSGI worker 3 (pid: 1549, cores: 1)
+spawned uWSGI worker 4 (pid: 1550, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 11:08:09 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xe116a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xe116a0 pid: 1561 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1561)
+spawned uWSGI worker 1 (pid: 1563, cores: 1)
+spawned uWSGI worker 2 (pid: 1564, cores: 1)
+spawned uWSGI worker 3 (pid: 1565, cores: 1)
+spawned uWSGI worker 4 (pid: 1566, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 11:19:24 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xdd56a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xdd56a0 pid: 1577 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1577)
+spawned uWSGI worker 1 (pid: 1579, cores: 1)
+spawned uWSGI worker 2 (pid: 1580, cores: 1)
+spawned uWSGI worker 3 (pid: 1581, cores: 1)
+spawned uWSGI worker 4 (pid: 1582, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 14:37:40 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x15d8690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15d8690 pid: 1713 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1713)
+spawned uWSGI worker 1 (pid: 1715, cores: 1)
+spawned uWSGI worker 2 (pid: 1716, cores: 1)
+spawned uWSGI worker 3 (pid: 1717, cores: 1)
+spawned uWSGI worker 4 (pid: 1718, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 16:06:12 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 16:06:51 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 16:09:48 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x10c4690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x10c4690 pid: 1797 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1797)
+spawned uWSGI worker 1 (pid: 1799, cores: 1)
+spawned uWSGI worker 2 (pid: 1800, cores: 1)
+spawned uWSGI worker 3 (pid: 1801, cores: 1)
+spawned uWSGI worker 4 (pid: 1802, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 16:16:13 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 16:18:27 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x11346b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x11346b0 pid: 1818 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1818)
+spawned uWSGI worker 1 (pid: 1820, cores: 1)
+spawned uWSGI worker 2 (pid: 1821, cores: 1)
+spawned uWSGI worker 3 (pid: 1822, cores: 1)
+spawned uWSGI worker 4 (pid: 1823, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 16:35:13 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x20126b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20126b0 pid: 1855 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1855)
+spawned uWSGI worker 1 (pid: 1857, cores: 1)
+spawned uWSGI worker 2 (pid: 1858, cores: 1)
+spawned uWSGI worker 3 (pid: 1859, cores: 1)
+spawned uWSGI worker 4 (pid: 1860, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 17:04:28 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x28556b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x28556b0 pid: 1908 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1908)
+spawned uWSGI worker 1 (pid: 1910, cores: 1)
+spawned uWSGI worker 2 (pid: 1911, cores: 1)
+spawned uWSGI worker 3 (pid: 1912, cores: 1)
+spawned uWSGI worker 4 (pid: 1913, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 22:16:58 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x17bb690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x17bb690 pid: 2047 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2047)
+spawned uWSGI worker 1 (pid: 2049, cores: 1)
+spawned uWSGI worker 2 (pid: 2050, cores: 1)
+spawned uWSGI worker 3 (pid: 2051, cores: 1)
+spawned uWSGI worker 4 (pid: 2052, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 19 23:25:22 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x21de6a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21de6a0 pid: 2114 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2114)
+spawned uWSGI worker 1 (pid: 2116, cores: 1)
+spawned uWSGI worker 2 (pid: 2117, cores: 1)
+spawned uWSGI worker 3 (pid: 2118, cores: 1)
+spawned uWSGI worker 4 (pid: 2119, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 26 12:40:44 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x1b2d690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1b2d690 pid: 5909 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5909)
+spawned uWSGI worker 1 (pid: 5911, cores: 1)
+spawned uWSGI worker 2 (pid: 5912, cores: 1)
+spawned uWSGI worker 3 (pid: 5913, cores: 1)
+spawned uWSGI worker 4 (pid: 5914, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 26 22:02:43 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xf2a690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xf2a690 pid: 6125 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6125)
+spawned uWSGI worker 1 (pid: 6127, cores: 1)
+spawned uWSGI worker 2 (pid: 6128, cores: 1)
+spawned uWSGI worker 3 (pid: 6129, cores: 1)
+spawned uWSGI worker 4 (pid: 6130, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Nov 26 22:59:16 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0xccc6b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xccc6b0 pid: 6163 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6163)
+spawned uWSGI worker 1 (pid: 6165, cores: 1)
+spawned uWSGI worker 2 (pid: 6166, cores: 1)
+spawned uWSGI worker 3 (pid: 6167, cores: 1)
+spawned uWSGI worker 4 (pid: 6168, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Nov 27 01:38:16 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x23f0690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x23f0690 pid: 6322 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6322)
+spawned uWSGI worker 1 (pid: 6324, cores: 1)
+spawned uWSGI worker 2 (pid: 6325, cores: 1)
+spawned uWSGI worker 3 (pid: 6326, cores: 1)
+spawned uWSGI worker 4 (pid: 6327, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Nov 27 10:15:45 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 10 November 2018 17:52:53
+os: Linux-3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018
+nodename: cjw2018.novalocal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/music
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/python3-1/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/music
+your processes number limit is 3882
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8080 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Nov 11 2018, 01:39:01)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+Python main interpreter initialized at 0x280d690
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x280d690 pid: 6730 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6730)
+spawned uWSGI worker 1 (pid: 6732, cores: 1)
+spawned uWSGI worker 2 (pid: 6733, cores: 1)
+spawned uWSGI worker 3 (pid: 6734, cores: 1)
+spawned uWSGI worker 4 (pid: 6735, cores: 1)
